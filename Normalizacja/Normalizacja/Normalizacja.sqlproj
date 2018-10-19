@@ -59,6 +59,7 @@
     <Folder Include="Properties" />
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
+    <Folder Include="dbo\Views\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Track.sql" />
@@ -72,5 +73,10 @@
     <Build Include="dbo\Tables\Customer.sql" />
     <Build Include="dbo\Tables\Artist.sql" />
     <Build Include="dbo\Tables\Album.sql" />
+    <Build Include="dbo\Tables\denormTrack.sql" />
+    <Build Include="dbo\Tables\denormArtistAblumTrack.sql" />
+    <Build Include="dbo\Views\v_Track.sql" />
+    <Build Include="dbo\Views\v.CustomerOnEmployee.sql" />
+    <Build Include="dbo\Views\v.ArtistAblumTrack.sql" />
   </ItemGroup>
 </Project>
