@@ -73,6 +73,7 @@
     <Folder Include="RapOp\" />
     <Folder Include="RapOp\Views\" />
     <Folder Include="dbo\Stored Procedures\" />
+    <Folder Include="Hr\Views\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Serwis\Tables\Zamowienie.sql" />
@@ -127,5 +128,9 @@
     <Build Include="Serwis\Tables\HistoriaZamowienie.sql" />
     <Build Include="Serwis\Tables\HistoriaZamowienia.sql" />
     <Build Include="Serwis\Tables\HistoriaAudyt.sql" />
+    <Build Include="Hr\Tables\ObecnoscId.sql" />
+    <Build Include="Hr\Tables\KartaCzasuPracyDni.sql" />
+    <Build Include="Hr\Tables\KartaCzasuPracy.sql" />
+    <Build Include="Hr\Views\RaportKartaCzasuPracy.sql" />
   </ItemGroup>
 </Project>
