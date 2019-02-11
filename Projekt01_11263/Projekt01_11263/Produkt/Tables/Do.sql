@@ -4,6 +4,9 @@
     [Seria]       NVARCHAR (12) NOT NULL,
     [WydanyPrzez] NVARCHAR (45) NOT NULL,
     [WaznyDo]     DATE          NULL,
-    PRIMARY KEY CLUSTERED ([DoId] ASC)
+    PRIMARY KEY CLUSTERED ([DoId] ASC),
+    UNIQUE NONCLUSTERED ([Seria] ASC)
 );
+
+
 

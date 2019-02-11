@@ -68,6 +68,11 @@
     <Folder Include="dbo\Functions\" />
     <Folder Include="Security\" />
     <Folder Include="dbo\Views\" />
+    <Folder Include="Wspolne\" />
+    <Folder Include="Wspolne\Tables\" />
+    <Folder Include="RapOp\" />
+    <Folder Include="RapOp\Views\" />
+    <Folder Include="dbo\Stored Procedures\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Serwis\Tables\Zamowienie.sql" />
@@ -106,5 +111,18 @@
     <Build Include="Security\Hr.sql" />
     <Build Include="dbo\Views\Disel_1.sql" />
     <Build Include="dbo\Views\Benzyna_1.sql" />
+    <Build Include="Serwis\Tables\TypUslugi.sql" />
+    <Build Include="Serwis\Tables\SzczegolyZamowienia.sql" />
+    <Build Include="Produkt\Tables\SzczegolyZamowienia.sql" />
+    <Build Include="Wspolne\Tables\Miasto.sql" />
+    <Build Include="RapOp\Views\RaportDataZakonczeniaStatusDoSprawdzenia.sql" />
+    <Build Include="RapOp\Views\ModeleNieSprzedane.sql" />
+    <Build Include="RapOp\Views\ListaSprzedanychMarek.sql" />
+    <Build Include="RapOp\Views\ListaPracownikowZamowienia.sql" />
+    <Build Include="RapOp\Views\Cennik.sql" />
+    <Build Include="dbo\Stored Procedures\NowyKlientDo.sql" />
+    <Build Include="dbo\Stored Procedures\NowyKlient.sql" />
+    <Build Include="dbo\Stored Procedures\DodajSzczegolyZam.sql" />
+    <Build Include="Security\Wspolne.sql" />
   </ItemGroup>
 </Project>
