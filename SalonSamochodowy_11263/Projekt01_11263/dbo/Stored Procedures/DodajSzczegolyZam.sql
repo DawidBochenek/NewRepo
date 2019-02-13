@@ -1,9 +1,10 @@
 ﻿
 
+
 CREATE PROCEDURE DodajSzczegolyZam
 @ZamowienieId int,
-@WyposzazenieId int,
-@RabatId int
+@WyposzazenieId int
+
 
 AS
 BEGIN
@@ -13,8 +14,9 @@ VALUES (@ZamowienieId,@WyposzazenieId)
 DECLARE @Suma money
 DECLARE @Rabat decimal (6,2)
 DECLARE @WyliczWartoscKoncowa money
+DECLARE @RabatId int
 
-
+SET @RabatId = (Select RabatId FROM Produkt.Zamownienie WHERE ZamownienieId=@ZamowienieId)
 SET @Rabat = (Select WysokoscRabatu FROM Produkt.Rabat WHERE RabatId=@RabatId)
 
 SET @Suma = (SELECT CenaSprzedazy FROM Produkt.Zamownienie WHERE ZamownienieId=@ZamowienieId)+
