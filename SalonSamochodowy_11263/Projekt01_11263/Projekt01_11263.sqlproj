@@ -74,6 +74,7 @@
     <Folder Include="RapOp\Views\" />
     <Folder Include="dbo\Stored Procedures\" />
     <Folder Include="Hr\Views\" />
+    <Folder Include="RapOp\Functions\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Serwis\Tables\Zamowienie.sql" />
@@ -132,5 +133,7 @@
     <Build Include="Hr\Tables\KartaCzasuPracyDni.sql" />
     <Build Include="Hr\Tables\KartaCzasuPracy.sql" />
     <Build Include="Hr\Views\RaportKartaCzasuPracy.sql" />
+    <Build Include="Produkt\Tables\Rabat.sql" />
+    <Build Include="RapOp\Functions\ZamSzczeg.sql" />
   </ItemGroup>
 </Project>
