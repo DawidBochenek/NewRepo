@@ -135,5 +135,6 @@
     <Build Include="Hr\Views\RaportKartaCzasuPracy.sql" />
     <Build Include="Produkt\Tables\Rabat.sql" />
     <Build Include="RapOp\Functions\ZamSzczeg.sql" />
+    <Build Include="RapOp\Views\ListaZamowien.sql" />
   </ItemGroup>
 </Project>
