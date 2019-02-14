@@ -6,7 +6,7 @@ AS
 --select * from Produkt.Zamownienie
 
 DECLARE @startLoopID INT = 1
-DECLARE @endLoopID INT = 20 -- Rows you want to add
+DECLARE @endLoopID INT = 1000 -- Rows you want to add
 
 SET IDENTITY_INSERT Produkt.Zamownienie ON
 WHILE @startLoopID <= @endLoopID
@@ -63,7 +63,7 @@ SET @Upper@PracownikId = 4 ---- The highest random number
 SELECT @Random@PracownikId = ROUND(((@Upper@PracownikId - @Lower@PracownikId -1) * RAND() + @Lower@PracownikId), 0)
 SET @PracownikId= @Random@PracownikId -- przypisanie pracowniak sprzedazy
 
-SET @Lower@ModelId = 4 ---- The lowest random number
+SET @Lower@ModelId = 2 ---- The lowest random number
 SET @Upper@ModelId = 13 ---- The highest random number
 SELECT @Random@ModelId = ROUND(((@Upper@ModelId - @Lower@ModelId -1) * RAND() + @Lower@ModelId), 0)
 SET @ModelId= @Random@ModelId
@@ -118,7 +118,7 @@ SET @Upper@WyposazenieId = 60 ---- The highest random number
 SELECT @Random@WyposazenieId = ROUND(((@Upper@WyposazenieId - @Lower@WyposazenieId -1) * RAND() + @Lower@WyposazenieId), 0)
 SET @WyposazenieId=@Random@WyposazenieId-- przypisanie losowego nr kl
 
-SET @Lower@ZamowinieId = 2
+SET @Lower@ZamowinieId = 1
 SET @Upper@ZamowinieId = (SELECT MAX(ZamownienieId) FROM Produkt.Zamownienie)
 SELECT @Random@ZamowinieId = ROUND(((@Upper@ZamowinieId - @Lower@ZamowinieId -1) * RAND() + @Lower@ZamowinieId), 0)
 SET @ZamowinieId =@Random@ZamowinieId 
