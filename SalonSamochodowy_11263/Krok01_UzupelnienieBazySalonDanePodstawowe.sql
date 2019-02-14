@@ -23,7 +23,7 @@
 --SET IDENTITY_INSERT Produkt.TypNadwozia ON
 
 --INSERT INTO Produkt.TypNadwozia (TypNadwoziaId, TypNadwoziaKey, Nazwa)
---VALUES (1,1,'SUV'),(2,2,'CoupÈ'),(3,3,'Sedan'),(4,4,'lift-back'),(5,5,'Kombi'),
+--VALUES (1,1,'SUV'),(2,2,'Coup√©'),(3,3,'Sedan'),(4,4,'lift-back'),(5,5,'Kombi'),
 --(6,6,'Kabriolet'),(7,7,'Minivan'),(8,8,'Hatch-back'),(9,9,'Van');
 --SET IDENTITY_INSERT Produkt.TypNadwozia OFF
 
@@ -78,7 +78,7 @@ GO
 
 SET IDENTITY_INSERT Produkt.TypWyposazenia ON
 INSERT INTO Produkt.TypWyposazenia (TypWyposazeniaId,TypWyposazeniaKey,Nazwa)
-VALUES (1,1,'AUDIO'),(2,2,'BEZPIECZE—STWO'),(3,3,'FELGI'),(4,4,'Komfort'),(5,5,'NADWOZIE')
+VALUES (1,1,'AUDIO'),(2,2,'BEZPIECZE≈ÉSTWO'),(3,3,'FELGI'),(4,4,'Komfort'),(5,5,'NADWOZIE')
 
 SET IDENTITY_INSERT Produkt.TypWyposazenia OFF
 
@@ -94,10 +94,10 @@ VALUES
 (3,3,'Funkcja Android Auto / CarPlay',1),
 (4,4,'Kierownica ze sterowaniem radioodtwarzaczem UConnect 5" (dla 7HZ i 7J1)',1),
 (5,5,'Radio Uconnect z 7" dotykowym ekranem i systemem Bluetooth ',1),
-(6,6,'Wyúwietlacz TFT 3,5" monochromatyczny ',1),
-(7,7,'Dodatkowe gniazdo zapalniczi w bagaøniku ',1),
-(8,8,'Poduszka powietrzna kierowcy ',2),--BEZPIECZE—STWO 
-(9,9,'Poduszka powietrzna pasaøera ',2),
+(6,6,'Wy≈õwietlacz TFT 3,5" monochromatyczny ',1),
+(7,7,'Dodatkowe gniazdo zapalniczi w baga≈ºniku ',1),
+(8,8,'Poduszka powietrzna kierowcy ',2),--BEZPIECZE≈ÉSTWO 
+(9,9,'Poduszka powietrzna pasa≈ºera ',2),
 (10,10,'Poduszki powietrzne boczne ',2),
 (11,11,'Poduszki powietrzne kurtynowe ',2),
 (12,12,'System ESC ',2),
@@ -106,75 +106,75 @@ VALUES
 (15,15,'DTC ',2),
 (16,16,'ERM ',2),
 (17,17,'Hill Hold Control ',2),
-(18,18,'Dwa tylne zag≥Ûwki ',2),
-(19,19,'åwiat≥a przeciwmgielne z funkcjπ doúwietlania zakrÍtÛw ',2),
-(20,20,'Trzy tylne zag≥Ûwki ',2), --13
+(18,18,'Dwa tylne zag≈Ç√≥wki ',2),
+(19,19,'≈öwiat≈Ça przeciwmgielne z funkcjƒÖ do≈õwietlania zakrƒôt√≥w ',2),
+(20,20,'Trzy tylne zag≈Ç√≥wki ',2), --13
 (21,21,'Felgi stalowe 15" ',3), --FELGI
 (22,22,'Felgi stalowe 16" ',3),
 (23,23,'Alufelgi 16" ',3),
 (24,24,'Alufelgi 15" ',3),
-(25,25,'Automatycznie unoszona klapa bagaønika ',4), --KOMFORT 
+(25,25,'Automatycznie unoszona klapa baga≈ºnika ',4), --KOMFORT 
 (26,26,'Centralny zamek ',4),
-(27,27,'Czujnik temperatury zewnÍtrznej ',4),
+(27,27,'Czujnik temperatury zewnƒôtrznej ',4),
 (28,28,'Dwustopniowe elektryczne wspomaganie kierownicy Dualdrive z trybem CITY ',4),
-(29,29,'Dzielona i sk≥adana tylna kanapa 60/40 ',4),
+(29,29,'Dzielona i sk≈Çadana tylna kanapa 60/40 ',4),
 (30,30,'Elektrycznie sterowane szyby przednie ',4),
-(31,31,'Fix&Go - zestaw do naprawy opon ze sprÍøarkπ (wyklucza ko≥o zapasowe) ',4),
-(32,32,'Fotel kierowcy z regulacjπ wysokoúci ',4),
+(31,31,'Fix&Go - zestaw do naprawy opon ze sprƒô≈ºarkƒÖ (wyklucza ko≈Ço zapasowe) ',4),
+(32,32,'Fotel kierowcy z regulacjƒÖ wysoko≈õci ',4),
 (33,33,'Isofix',4),
 (34,34,'Gniazdko 12v na konsoli centralnej',4),
 (35,35,'Kierownica ze sterowaniem radioodtwarzaczem UConnect (dla 7BY)',4),
 (36,36,'Klimatyzacja manualna',4),
-(37,37,'Kolumna kierownicy z regulacjπ',4),
-(38,38,'Sterowanie centralnym zamkiem za pomocπ pilota w kluczyku',4),
-(39,39,'System monitorowania ciúnienia powietrza w oponach (TPMS)',4),
-(40,40,'Lusterka zewnÍtrzne regulowane mechanicznie',4),
+(37,37,'Kolumna kierownicy z regulacjƒÖ',4),
+(38,38,'Sterowanie centralnym zamkiem za pomocƒÖ pilota w kluczyku',4),
+(39,39,'System monitorowania ci≈õnienia powietrza w oponach (TPMS)',4),
+(40,40,'Lusterka zewnƒôtrzne regulowane mechanicznie',4),
 (41,41,'Elektrycznie sterowane szyby tylne',4),
-(42,42,'Kierownica i ga≥ka zmiany biegÛw pokryte skÛrπ',4),
+(42,42,'Kierownica i ga≈Çka zmiany bieg√≥w pokryte sk√≥rƒÖ',4),
 (43,43,'Tempomat',4),
 (44,44,'Lusterka regulowane elektrycznie',4),
 (45,45,'Czujniki parkowania tylne',4),
 (46,46,'Klimatyzacja automatyczna jednostrefowa',4),
-(47,47,'Lusterka zewnÍtrzne elektrycznie sterowane i podgrzewane',4),
-(48,48,'Pod≥okietnik przedni',4),
+(47,47,'Lusterka zewnƒôtrzne elektrycznie sterowane i podgrzewane',4),
+(48,48,'Pod≈Çokietnik przedni',4),
 (49,49,'Zderzaki w kolorze nadwozia',5),
-(50,50,'Chromowane klamki zewnÍtrzne',5),
-(51,51,'Listwa chromowana na klapie bagaønika',5),
-(52,52,'Lusterka zewnÍtrzne lakierowane w kolorze nadwozia',5),
+(50,50,'Chromowane klamki zewnƒôtrzne',5),
+(51,51,'Listwa chromowana na klapie baga≈ºnika',5),
+(52,52,'Lusterka zewnƒôtrzne lakierowane w kolorze nadwozia',5),
 (53,53,'Listwy boczne w kolorze nadwozia',5),
-(54,54,'åwiat≥a do jazdy dziennej LED',5),
-(55,55,'Klamki zewnÍtrzne w kolorze nadwozia',5),
-(56,56,'Listwa na klapie bagaønika',5),
+(54,54,'≈öwiat≈Ça do jazdy dziennej LED',5),
+(55,55,'Klamki zewnƒôtrzne w kolorze nadwozia',5),
+(56,56,'Listwa na klapie baga≈ºnika',5),
 (57,57,'Listwa chromowana na przednim grillu',5),
-(58,58,'Listwy chromowane pod liniπ szyb bocznych',5),
-(59,59,'Lusterka zewnÍtrzne chromowane',5),
-(60,60,'Brak emblematÛw',5),
-(61,61,'åwiat≥a przeciwmgielne',5),
-(62,62,'Chromowane listwy wewnÍtrzne',5),
-(63,63,'Reling / mocowanie bagaønika na dachu',5),
-(64,64,'Podgrzewanie lusterek zewnÍtrznych',5),
+(58,58,'Listwy chromowane pod liniƒÖ szyb bocznych',5),
+(59,59,'Lusterka zewnƒôtrzne chromowane',5),
+(60,60,'Brak emblemat√≥w',5),
+(61,61,'≈öwiat≈Ça przeciwmgielne',5),
+(62,62,'Chromowane listwy wewnƒôtrzne',5),
+(63,63,'Reling / mocowanie baga≈ºnika na dachu',5),
+(64,64,'Podgrzewanie lusterek zewnƒôtrznych',5),
 (65,65,'Kolor nawdozia inny ',5),
-(66,66,'Dodatkowe oúwietlenie bagaønika',5)
+(66,66,'Dodatkowe o≈õwietlenie baga≈ºnika',5)
 
 SET IDENTITY_INSERT Produkt.Wyposzazenie OFF
 
 
 INSERT INTO Wspolne.Miasto (MiastoId,MiastoKey,NazwaMista)
- VALUES (1,1,'KrakÛw'),
+ VALUES (1,1,'Krak√≥w'),
 (2,2,'Warszawa'),
 (3,3,'Skawina'),
 (4,4,'Zakpoane'),
-(5,5,'OúwiÍcim'),
-(6,6,'PoznaÒ'),
-(7,7,'Wroc≥aw'),
+(5,5,'O≈õwiƒôcim'),
+(6,6,'Pozna≈Ñ'),
+(7,7,'Wroc≈Çaw'),
 (8,8,'Wieliczka'),
-(9,9,'ZamoúÊ'),
-(10,10,'Bielsko Bia≥a'),
+(9,9,'Zamo≈õƒá'),
+(10,10,'Bielsko Bia≈Ça'),
 (11,11,'Bydgoszcz'),
-(12,12,'GdaÒúk'),
+(12,12,'Gda≈Ñ≈õk'),
 (13,13,'Gdynia'),
-(14,14,'Przemyúl'),
-(15,15,'P≥ock')
+(14,14,'Przemy≈õl'),
+(15,15,'P≈Çock')
 
 USE SalonSamochodowy
 GO
@@ -185,9 +185,9 @@ SET IDENTITY_INSERT Hr.Zespol ON
 INSERT INTO Hr.Zespol (ZespolId,ZespolKey,Nazwa)
 VALUES (1,1,'Sprzedawcy'),
 (2,2,'Serwis'),
-(3,3,'Kadry i p≥ace'),
+(3,3,'Kadry i p≈Çace'),
 (4,4,'Marketing'),
-(5,5,'Zarzπd')
+(5,5,'ZarzƒÖd')
 SET IDENTITY_INSERT Hr.Zespol OFF
 
 USE SalonSamochodowy
@@ -195,21 +195,21 @@ GO
 
 SET IDENTITY_INSERT Hr.Stanowisko ON
 INSERT INTO Hr.Stanowisko (StanowiskoId,StanowiskoKey,Nazwa)
-VALUES (1,1,'M≥odszy Sprzedawca'),
+VALUES (1,1,'M≈Çodszy Sprzedawca'),
 (2,2,'Sprzedawca'),
-(3,3,'Kierownik sprezdaøy'),
-(4,4,'M≥odszy Mechanik'),
+(3,3,'Kierownik sprezda≈ºy'),
+(4,4,'M≈Çodszy Mechanik'),
 (5,5,'Mechanik'),
 (6,6,'Kierownik serwisu'),
-(7,7,'M≥odszy specjalista kary i p≥ace'),
-(8,8,'Specjalista kadry i p≥ace'),
-(9,9,'Kierownik kadry i p≥ace'),
-(10,10,'ZastÍpca kierwonika sprzedaøy'),
-(11,11,'ZastÍpca kierwonika serwisu'),
-(12,12,'ZastÍpca kierowanika kadry i p≥ace'),
+(7,7,'M≈Çodszy specjalista kary i p≈Çace'),
+(8,8,'Specjalista kadry i p≈Çace'),
+(9,9,'Kierownik kadry i p≈Çace'),
+(10,10,'Zastƒôpca kierwonika sprzeda≈ºy'),
+(11,11,'Zastƒôpca kierwonika serwisu'),
+(12,12,'Zastƒôpca kierowanika kadry i p≈Çace'),
 (13,13,'Dyrektor'),
 (14,14,'Prezes'),
-(15,15,'Cz≥onek zarzπdu')
+(15,15,'Cz≈Çonek zarzƒÖdu')
 
 SET IDENTITY_INSERT Hr.Stanowisko OFF
 
@@ -219,21 +219,21 @@ GO
 
 SET IDENTITY_INSERT Hr.Pracownik ON
 INSERT INTO  Hr.Pracownik (PracownikId,PracownikKey,Imie,Nazwisko,DataUrodzenia,DataZatrudnienia,PESEL,Adres,Miasto,KodPocztowy,Kraj,Telefon,StanowiskoId,ZespolId,Przelozony)
-VALUES (1,1,'Jan','Jakiú','1983-02-03','2018-01-02',83020390454,'Krakowska 12/5',14,'00-123','Polska',123459780,2,1,5),
-(2,2,'Wojciech','Nijaki','1979-05-04','2018-01-02',78050466358,'CzÍstochowska 5/12',12,'11-123','Polska',00223344,2,1,5),
-(3,3,'Micha≥','Kowalski','1999-12-01','2018-01-02',99120106750,'Za miastem 5',3,'12-123','Polska',10237711,1,1,5),
+VALUES (1,1,'Jan','Jaki≈õ','1983-02-03','2018-01-02',83020390454,'Krakowska 12/5',14,'00-123','Polska',123459780,2,1,5),
+(2,2,'Wojciech','Nijaki','1979-05-04','2018-01-02',78050466358,'Czƒôstochowska 5/12',12,'11-123','Polska',00223344,2,1,5),
+(3,3,'Micha≈Ç','Kowalski','1999-12-01','2018-01-02',99120106750,'Za miastem 5',3,'12-123','Polska',10237711,1,1,5),
 (4,4,'Grzegorz','Nowak','1975-01-03','2018-01-02',75010377558,'Grundwaldzka 22/55',7,'13-123','Polska',00245533,2,1,5),
-(5,5,'Bogdan','Coútamcoútam','1989-02-05','2018-01-02',89020504891,'Bogdana ze Spychowa 13/12',8,'14-123','Polska',00258855,3,1,NULL),
+(5,5,'Bogdan','Co≈õtamco≈õtam','1989-02-05','2018-01-02',89020504891,'Bogdana ze Spychowa 13/12',8,'14-123','Polska',00258855,3,1,NULL),
 (6,6,'Mirek','Zbirek','1991-07-01','2018-01-02',91070150038,'Muchomorka 1',15,'15-123','Polska',00260011,4,2,10),
-(7,7,'Micha≥','Pajac','1975-02-19','2018-01-02',75021995431,'Murowana 12',1,'01-001','Polska',00274499,5,2,10),
-(8,8,'Antoni','Ma≥y','1985-06-16','2018-01-02',85061626358,'Jacka Placka 1/12',9,'09-009','Polska',00283366,5,2,10),
-(9,9,'Wojciech','Duøy','1995-05-05','2018-01-02',95050537576,'Osiedle Lipa 1/12b',2,'02-002','Polska',00295555,4,2,10),
-(10,10,'Czes≥aw','Maruda','1978-08-07','2018-12-02',78080783959,'Co za Nuda 9/1',8,'08-008','Polska',002109977,6,2,14),
-(11,11,'Anna','NagÛrna','1995-07-12','2018-10-02',95071278722,'Na dole 13',5,'05-005','Polska',002117722,7,3,13),
+(7,7,'Micha≈Ç','Pajac','1975-02-19','2018-01-02',75021995431,'Murowana 12',1,'01-001','Polska',00274499,5,2,10),
+(8,8,'Antoni','Ma≈Çy','1985-06-16','2018-01-02',85061626358,'Jacka Placka 1/12',9,'09-009','Polska',00283366,5,2,10),
+(9,9,'Wojciech','Du≈ºy','1995-05-05','2018-01-02',95050537576,'Osiedle Lipa 1/12b',2,'02-002','Polska',00295555,4,2,10),
+(10,10,'Czes≈Çaw','Maruda','1978-08-07','2018-12-02',78080783959,'Co za Nuda 9/1',8,'08-008','Polska',002109977,6,2,14),
+(11,11,'Anna','Nag√≥rna','1995-07-12','2018-10-02',95071278722,'Na dole 13',5,'05-005','Polska',002117722,7,3,13),
 (12,12,'Halina','Wredna','1990-10-05','2018-11-02',90100585183,'Jak Cholera 1',6,'06-006','Polska',102121155,8,3,13),
 (13,13,'Bogdan','Czepialski','1989-09-05','2018-01-02',89090546519,'Byle Czego 13/12',11,'11-011','Polska',002135555,9,3,13),
-(14,14,'Jan','Niewiadomo','1985-10-01','2018-01-02',85100161372,'Jak i Gdzie 1/9',2,'02-012','W≥ochy',102143311,15,4,15),
-(15,15,'Dawid','Nawalony','1979-08-09','2018-11-02',79080983851,'Jak Mesershmit 109',9,'09-090','W≥ochy',002158899,14,5,NULL)
+(14,14,'Jan','Niewiadomo','1985-10-01','2018-01-02',85100161372,'Jak i Gdzie 1/9',2,'02-012','W≈Çochy',102143311,15,4,15),
+(15,15,'Dawid','Nawalony','1979-08-09','2018-11-02',79080983851,'Jak Mesershmit 109',9,'09-090','W≈Çochy',002158899,14,5,NULL)
 
 SET IDENTITY_INSERT Hr.Pracownik OFF
 
@@ -244,18 +244,18 @@ SET IDENTITY_INSERT Produkt.Do ON
 INSERT INTO Produkt.Do (DoId,DoKey,Seria,WydanyPrzez,WaznyDo)
 VALUES
 (1,1,'AA-12345','Prezydent Miasta Puck','2019-09-09'),
-(2,2,'BB-12345','Prezydent Miasta KrakÛw','2019-09-09'),
-(3,3,'CC-55555','Prezydent Miasta KrakÛw','2019-09-09'),
-(4,4,'DD-11111','Prezydent Miasta KrakÛw','2020-09-09'),
-(5,5,'AA-33333','Prezydent Miasta KrakÛw','2019-11-02'),
-(6,6,'FF-8888','Prezydent Miasta KrakÛw','2019-12-12'),
-(7,7,'GF-12345','Prezydent Miasta KrakÛw','2019-03-01'),
+(2,2,'BB-12345','Prezydent Miasta Krak√≥w','2019-09-09'),
+(3,3,'CC-55555','Prezydent Miasta Krak√≥w','2019-09-09'),
+(4,4,'DD-11111','Prezydent Miasta Krak√≥w','2020-09-09'),
+(5,5,'AA-33333','Prezydent Miasta Krak√≥w','2019-11-02'),
+(6,6,'FF-8888','Prezydent Miasta Krak√≥w','2019-12-12'),
+(7,7,'GF-12345','Prezydent Miasta Krak√≥w','2019-03-01'),
 (8,8,'GG-22566','Prezydent Miasta Warszawa','2020-09-09'),
 (9,9,'GG-88999','Prezydent Miasta Warszawa','2019-11-02'),
-(10,10,'AA-993366','Prezydent Miasta PoznaÒ','2019-12-12'),
-(11,11,'BB-1122335','Prezydent Miasta PoznaÒ','2019-03-01'),
-(12,12,'CC-664455','Prezydent Miasta Wroc≥aw','2019-09-09'),
-(13,13,'BB-15673','Prezydent Miasta GdaÒsk','2019-11-02'),
+(10,10,'AA-993366','Prezydent Miasta Pozna≈Ñ','2019-12-12'),
+(11,11,'BB-1122335','Prezydent Miasta Pozna≈Ñ','2019-03-01'),
+(12,12,'CC-664455','Prezydent Miasta Wroc≈Çaw','2019-09-09'),
+(13,13,'BB-15673','Prezydent Miasta Gda≈Ñsk','2019-11-02'),
 (14,14,'GD-1267','Prezydent Miasta Opole','2019-02-27'),
 (15,15,'CA-12356','Prezydent Miasta Skawina','2019-12-12')
 
@@ -268,18 +268,18 @@ GO
 
 SET IDENTITY_INSERT Produkt.Klient ON
 INSERT INTO Produkt.Klient(KlientId,KlientKey,KlientImiePierwsze,KlientImieDrugie,KlientNazwisko,DataDodania,Telefon,EmailId,DowodOsobistyId)
-VALUES (1,1,'£ukasz','Piotr','Nowak','2019-01-04',987654321,'mail@test.pl',1),
+VALUES (1,1,'≈Åukasz','Piotr','Nowak','2019-01-04',987654321,'mail@test.pl',1),
 (2,2,'Marian','Roman','Antoniak','2019-01-04',123454359,'lfahdsljfa@com.pl',2),
-(3,3,'Micha≥','Bogdan','Kowalski','2019-02-02',645589601,'ojfaffa@gmail.com',3),
-(4,4,'Wojciech','Micha≥','Piotrowski','2019-01-03',456846501,'iaksikjfdapo@wp.pl',4),
-(5,5,'Franciszek','Bogdan','W≥akowski','2018-05-06',881351860,'sajdajias@onet.pl',5),
+(3,3,'Micha≈Ç','Bogdan','Kowalski','2019-02-02',645589601,'ojfaffa@gmail.com',3),
+(4,4,'Wojciech','Micha≈Ç','Piotrowski','2019-01-03',456846501,'iaksikjfdapo@wp.pl',4),
+(5,5,'Franciszek','Bogdan','W≈Çakowski','2018-05-06',881351860,'sajdajias@onet.pl',5),
 (6,6,'Joanna','Franciszka','Niewiadomska','2018-07-06',990775663,'osaldcoa11@com.pl',6),
-(7,7,'Brygida','Ula','Umuúlna','2018-03-04',669554332,'flnalkjnd2@free.pl',7),
-(8,8,'Celestyna','Joanna','Z≥Ûtek','2019-02-02',546889011,'andsfoi1@op.pl',8),
-(9,9,'Piotr','£ukasz','Piekarz','2018-10-10',554666997,'sdlknjfkosldnhjfg@gmail.com',9),
+(7,7,'Brygida','Ula','Umu≈õlna','2018-03-04',669554332,'flnalkjnd2@free.pl',7),
+(8,8,'Celestyna','Joanna','Z≈Ç√≥tek','2019-02-02',546889011,'andsfoi1@op.pl',8),
+(9,9,'Piotr','≈Åukasz','Piekarz','2018-10-10',554666997,'sdlknjfkosldnhjfg@gmail.com',9),
 (10,10,'Roman','Marian','Jankowski','2018-11-11',443366559,'sldhjfvlk@wp.pl',10),
-(11,11,'Bogdan','Micha≥','Gucio','2018-12-12',554332119,'ansdnv@gmail.com',11),
-(12,12,'Micha≥','Wojciech','Jawor','2018-06-05',123256456,'oijgfoisnhg@waan.pl',12),
+(11,11,'Bogdan','Micha≈Ç','Gucio','2018-12-12',554332119,'ansdnv@gmail.com',11),
+(12,12,'Micha≈Ç','Wojciech','Jawor','2018-06-05',123256456,'oijgfoisnhg@waan.pl',12),
 (13,13,'Tomasz','Piotr','Halny','2018-05-04',113366981,'njaaaakn22@wp.pl',13),
 (14,14,'Anna','Katarzyna','Nawiana','2018-04-06',553580900,'dnvvan3bj@interia.pl',14),
 (15,15,'Sebastian','Roman','Jakikolwiek','2019-02-09',223355669,'nvcn@wp.pl',15)
@@ -288,30 +288,6 @@ SET IDENTITY_INSERT Produkt.Klient OFF
 
 USE SalonSamochodowy
 GO
-
-SET IDENTITY_INSERT Produkt.Zamownienie ON
-INSERT INTO Produkt.Zamownienie (ZamownienieId,ZamownienieKey,KlientId,PracownikId,CenaSprzedazy,DataZlozenia,DataOdbioru,StatusRealizacji,StatusPlatnosci,ModelId,PakietId,RabatId)
-VALUES (1,1,1,1,1,'2019-02-01','2019-03-04',0,0,1,1,1),
-(2,2,2,2,1,'2019-02-01','2019-03-05',0,0,1,1,2),
-(3,3,3,3,1,'2019-02-01','2019-03-06',0,0,1,1,3),
-(4,4,4,4,1,'2019-02-01','2019-03-07',0,0,1,1,4),
-(5,5,5,4,1,'2019-02-01','2019-03-08',0,0,1,1,4),
-(6,6,6,3,1,'2019-02-01','2019-03-09',0,0,1,1,1),
-(7,7,7,2,1,'2019-02-01','2019-03-10',0,0,1,1,2),
-(8,8,8,1,1,'2019-02-01','2019-03-11',0,0,1,1,4),
-(9,9,9,1,1,'2019-02-01','2019-03-12',0,0,1,1,4),
-(10,10,10,2,1,'2019-02-01','2019-03-13',0,0,1,1,4),
-(11,11,11,3,1,'2019-02-01','2019-03-14',0,0,1,1,1),
-(12,12,12,4,1,'2019-02-01','2019-03-15',0,0,1,1,2),
-(13,13,13,4,1,'2019-02-01','2019-03-16',0,0,1,1,1),
-(14,14,14,3,1,'2019-02-01','2019-03-17',0,0,1,1,2),
-(15,15,15,2,1,'2019-02-01','2019-03-18',0,0,1,1,1)
-
-SET IDENTITY_INSERT Produkt.Zamownienie OFF
-
-USE SalonSamochodowy
-GO
-
 
 SET IDENTITY_INSERT Produkt.PakietLista ON
 INSERT INTO Produkt.PakietLista (PakietId,PakietKey,WyposzazenieId)
@@ -379,67 +355,65 @@ VALUES (1,1,1),
 (4,4,64)
 
 
-
-
 INSERT INTO Serwis.TypUslugi (TypUslugiId,TypUslugiKey,NazwaUslugi)
 VALUES (1,1,'Diagnostyka samochodowa'),
-(2,2,'Naprawa uk≥adu hamulcowego'),
-(3,3,'Naprawa uk≥adu zap≥onowego '),
+(2,2,'Naprawa uk≈Çadu hamulcowego'),
+(3,3,'Naprawa uk≈Çadu zap≈Çonowego '),
 (4,4,'Mechanika pojazdowa'),
-(5,5,'Naprawa uk≥adu napÍdowego')
+(5,5,'Naprawa uk≈Çadu napƒôdowego')
 
 
 SET IDENTITY_INSERT Serwis.Uslugi ON
 INSERT INTO Serwis.Uslugi (UslugiId,UslugiKey,NazwaUslugi,TypId)
 VALUES(1,1,'Wymiana akumulatora ',1),
 (2,2,'Analiza spalin ',1),
-(3,3,'Test amortyzatorÛw ',1),
-(4,4,'Test hamulcÛw na p≥ytach rolkowych ',1),
+(3,3,'Test amortyzator√≥w ',1),
+(4,4,'Test hamulc√≥w na p≈Çytach rolkowych ',1),
 (5,5,'Test akumulatora ',1),
-(6,6,'Ustawienie zbieønoúci/geometrii kÛ≥ ',1),
-(7,7,'Ustawienie úwiate≥ ',1),
+(6,6,'Ustawienie zbie≈ºno≈õci/geometrii k√≥≈Ç ',1),
+(7,7,'Ustawienie ≈õwiate≈Ç ',1),
 (8,8,'Diagnostyka komputerowa ',1),
 (9,9,'Kasowanie inspekcji olejowej ',1),
-(10,10,'Pomiar zadymienia silnika ÑZSî ',1),
-(11,11,'Wymiana klockÛw hamulcowych przÛd komplet ',2),
-(12,12,'Wymiana klockÛw hamulcowych ty≥ komplet ',2),
+(10,10,'Pomiar zadymienia silnika ‚ÄûZS‚Äù ',1),
+(11,11,'Wymiana klock√≥w hamulcowych prz√≥d komplet ',2),
+(12,12,'Wymiana klock√≥w hamulcowych ty≈Ç komplet ',2),
 (13,13,'Wymiana tarcz hamulcowych 2 szt. ',2),
-(14,14,'Wymiana szczÍk hamulcowych komplet ',2),
+(14,14,'Wymiana szczƒôk hamulcowych komplet ',2),
 (15,15,'Wymiana cylinderka hamulcowego 1 szt. ',2),
-(16,16,'Wymiana przewodÛw hamulcowych komplet ',2),
+(16,16,'Wymiana przewod√≥w hamulcowych komplet ',2),
 (17,17,'Wymiana pompy hamulcowej ',2),
-(18,18,'Wymiana linki hamulca rÍcznego ',2),
-(19,19,'Regulacja hamulca rÍcznego ',2),
+(18,18,'Wymiana linki hamulca rƒôcznego ',2),
+(19,19,'Regulacja hamulca rƒôcznego ',2),
 (20,20,'Uruchomienie zacisku hamulcowego ',2),
-(21,21,'Wymiana p≥ynu hamulcowego ',2),
-(22,22,'Regulacja zaworÛw silnikowych ',3),
-(23,23,'Wymiana cewki zap≥onowej ',3),
-(24,24,'Wymiana przewodÛw zap≥onowych ',3),
-(25,25,'Wymiana úwiec zap≥onowych komplet ',3),
-(26,26,'Wymiana úwiec øarowych 1 szt. ',3),
+(21,21,'Wymiana p≈Çynu hamulcowego ',2),
+(22,22,'Regulacja zawor√≥w silnikowych ',3),
+(23,23,'Wymiana cewki zap≈Çonowej ',3),
+(24,24,'Wymiana przewod√≥w zap≈Çonowych ',3),
+(25,25,'Wymiana ≈õwiec zap≈Çonowych komplet ',3),
+(26,26,'Wymiana ≈õwiec ≈ºarowych 1 szt. ',3),
 (27,27,'Wymiana oleju z filtrem ',4),
 (28,28,'Wymiana filtra powietrza ',4),
 (29,29,'Wymiana filtra paliwa ',4),
 (30,30,'Wymiana filtra kabinowego ',4),
-(31,31,'Wymiana p≥ynu hamulcowego ',4),
-(32,32,'Wymiana p≥ynu ch≥odzπcego ',4),
-(33,33,'Wymiana oleju w man. skrzyni biegÛw',4),
-(34,34,'Wymiana oleju w autom.skrzyni biegÛw',4),
-(35,35,'Wymiana oleju w uk≥adzie wspomagania ',4),
-(36,36,'Przeglπd okresowy ma≥y (15-45-75 tys.) ',4),
-(37,37,'Przeglπd okresowy úredni (30 -90 tys.)',4),
-(38,38,'Przeglπd okresowy duøy (60-120 tys.) ',4),
+(31,31,'Wymiana p≈Çynu hamulcowego ',4),
+(32,32,'Wymiana p≈Çynu ch≈ÇodzƒÖcego ',4),
+(33,33,'Wymiana oleju w man. skrzyni bieg√≥w',4),
+(34,34,'Wymiana oleju w autom.skrzyni bieg√≥w',4),
+(35,35,'Wymiana oleju w uk≈Çadzie wspomagania ',4),
+(36,36,'PrzeglƒÖd okresowy ma≈Çy (15-45-75 tys.) ',4),
+(37,37,'PrzeglƒÖd okresowy ≈õredni (30 -90 tys.)',4),
+(38,38,'PrzeglƒÖd okresowy du≈ºy (60-120 tys.) ',4),
 (39,39,'Wymiana reflektora ',4),
-(40,40,'Uzupe≥nienie czynnika klimatyzacji ',4),
+(40,40,'Uzupe≈Çnienie czynnika klimatyzacji ',4),
 (41,41,'Dezynfekcja ',4),
-(42,42,'Ozonowanie uk≥adu ',4),
-(43,43,'Wymiana sprzÍg≥a ',5),
-(44,44,'Wymiana rozrzπdu ',5),
+(42,42,'Ozonowanie uk≈Çadu ',4),
+(43,43,'Wymiana sprzƒôg≈Ça ',5),
+(44,44,'Wymiana rozrzƒÖdu ',5),
 (45,45,'Wymiana pompy wody ',5),
 (46,46,'Wymiana paska klinowego 1 szt. ',5),
-(47,47,'Wymiana uszczelki pod g≥owicπ ',5),
-(48,48,'Demontaø silnika naprawa',5),
-(49,49,'Wymiana turbosprÍøarki ',5),
+(47,47,'Wymiana uszczelki pod g≈ÇowicƒÖ ',5),
+(48,48,'Demonta≈º silnika naprawa',5),
+(49,49,'Wymiana turbosprƒô≈ºarki ',5),
 (50,50,'Uszczelnienie miski olejowej ',5),
 (51,51,'Wymiana termostatu ',5)
 
@@ -512,12 +486,12 @@ SET IDENTITY_INSERT Serwis.StatusyZamowienie  ON
 INSERT INTO Serwis.StatusyZamowienie (StatusyZamowienieId,StatusyZamownienieKey,NazaStatusu)
 VALUES (1,1,'Otwarte'),
 (2,2,'W trakcie realizacji'),
-(3,3,'Czeka na czÍúci'),
-(4,4,'Czeka na decyzjÍ klienta'),
-(5,5,'Czeka na odbiÛr'),
+(3,3,'Czeka na czƒô≈õci'),
+(4,4,'Czeka na decyzjƒô klienta'),
+(5,5,'Czeka na odbi√≥r'),
 (6,6,'Zrealizowane'),
 (7,7,'Reklamacja'),
-(8,8,'Reklamacja zakoÒÊzona')
+(8,8,'Reklamacja zako≈Ñƒázona')
 SET IDENTITY_INSERT Serwis.StatusyZamowienie  OFF
 
 USE SalonSamochodowy
@@ -578,7 +552,7 @@ VALUES (1,'Obecny'),(2,'Urlop'),(3,'L-4'),(4,'Nieobecny')
 
 
 INSERT INTO Produkt.Rabat (RabatId,WysokoscRabatu,NazwaRabatu)
-VALUES (1,5.0,'Na Powitanie'),(2,12.50,'Wyprzedaø Rocznika'),(3,10.00,'Sta≥y Klient'),(4,0.0,'Brak')
+VALUES (1,5.0,'Na Powitanie'),(2,12.50,'Wyprzeda≈º Rocznika'),(3,10.00,'Sta≈Çy Klient'),(4,0.0,'Brak')
 
 INSERT INTO Hr.GodzinowyCzasPracy (RokId,MiesiacId,LiczbaGodzinPracy,LiczbaDniPracy,LiczbaDniWolnych)
 VALUES (2019,1,176,22,9),
