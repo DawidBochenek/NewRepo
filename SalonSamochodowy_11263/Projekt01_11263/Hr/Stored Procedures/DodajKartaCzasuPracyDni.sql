@@ -10,7 +10,7 @@ BEGIN
 
 DECLARE @Nadgodziny decimal(10,2)
 
-SET @Nadgodziny = ABS((SELECT @Do-@Od))-8
+SET @Nadgodziny = (SELECT @Do-@Od)-8
 
 INSERT INTO Hr.KartaCzasuPracyDni (PracownikId,MiesiacId,Dzien,ObecnoscId,Od,Do,Nadgodziny)
 VALUES (@PracownikId,@MiesiacId,@Dzien,@ObecnoscId,@Od,@Do,@Nadgodziny)
